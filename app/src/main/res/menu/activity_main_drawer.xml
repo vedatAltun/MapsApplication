@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_earth"
+            android:icon="@drawable/ic_menu_earth"
+            android:title="Google Earth" />
+        <item
+            android:id="@+id/nav_streetview"
+            android:icon="@drawable/ic_menu_street"
+            android:title="Street View" />
+
+        <item
+            android:id="@+id/nav_marker"
+            android:icon="@drawable/ic_menu_satalite"
+            android:title="Konum işaretle" />
+        <item
+            android:id="@+id/nav_position"
+            android:icon="@drawable/ic_menu_satalite"
+            android:title="Position" />
+
+    </group>
+
+    <item android:title="İletişim">
+        <menu>
+            <item
+            android:id="@+id/nav_places"
+            android:icon="@drawable/ic_menu_places"
+            android:title="Yerlerim" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Konum paylaş" />
+            <item
+                android:id="@+id/nav_autocomplete"
+                android:icon="@drawable/ic_menu_d3"
+                android:title="Google search" />
+            <item
+                android:id="@+id/nav_snapshot"
+                android:icon="@drawable/ic_menu_snapshot_"
+                android:title="Snapshot" />
+        </menu>
+    </item>
+
+</menu>
